@@ -326,61 +326,129 @@ nav{
     background-position: center;
 }
 
-/* button styling */
-/* 
-.page3 .btn button{
-    padding: 10px 20px;
-    border: 2px solid rgba(130, 124, 124, 0.773);
-    border-radius: 50px;
-    font-weight: 500;
-    color: #332f2fdf;
-    position: relative;
-    font-size: 18px;
-    transition: all ease 0.4s;
-    overflow: hidden;
+.page3 .nav-2{
+    padding: 3vw;
 }
-.page3 .btn button::after{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(15, 14, 14);
-    left: 0;
-    bottom: -100%;
-    border-radius: 50%;
-    transition: all ease 0.4s;
-    color: white;
-}
-
-
-.page3 .btn button:hover::after{
-    bottom: 0;
-    border-radius: 0;
-    
-}
-.page3 .btn button{
-    color: #332f2fdf;
-    position: relative;
-    z-index: 9;
-}
-.page3 .btn:hover button{
-    color: rgb(250, 243, 243);
-} */
-
-/* button styling end */
 
 /* balck board design here */
+.black-board{
+    height: 90vh;
+    width: 95%;
+    background-color: black;
+    border-radius: 2vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+    inset: 0% 2vw;
+    margin-top: 7vw;
+    margin-left: 0.7%;
+    
 
+    
+}
+.black-board .left
+{
+    position: absolute;
+    color: white;
+    width: 50%;
+
+}
+.black-board .left .headings{
+    padding-left: 12vw;
+    padding-bottom: 5vw;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.black-board .left .para{
+    padding-left: 10vw;
+   
+    font-size: 1vw;
+    font-weight: 400;
+}
 .page4{
     height: 60vh;
     width: 100%;
     background-color: #EFEAE3;
+    padding: 10vw 2vw;
 }
+.swiper {
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff; */
+    transition: transform 0.3s ease-in-out;
+  }
+  .swiper:hover{
+    cursor: url('./arrows-left-right-solid.svg'), auto;
+    transform: scale(1.1);
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    border-left: 1px solid rgb(150, 149, 149);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* height: 30vh; */
+    width: 30%;
+    max-width: 100%;
+    padding: 0 2vw;
+    position: relative;
+    max-width: 100%;
+  }
+  .swiper-slide img{
+    height: 40px;
+    width: 100px;
+    /* display: block; */
+    object-fit: cover;
+    display: inline-block;
+    position: absolute;
+    inset: 0%;
+    left: 2vw;
+    top: 1vw;
+    
+    /* padding: px; */
+  }
+  .swiper-slide p{
+    font-size: 1vw;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+  }
+
+  /* .swiper-slide img {
+    display: block;
+    width: 40%;
+    height: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 3vw;
+    /* padding :0vw; */
+    /* padding-bottom: 30px; 
+
+  } */
+  /* .swiper-slide p {
+    position: absolute;
+   margin-top: 0 !important;
+   margin-bottom: 0 !important;
+   color: var(--black);
+   font-size: 1vw;
+   bottom: 0;
+
+  } */
+
+  
+
+  
 .page5{
     height: 100vh;
     width: 100%;
     /* background-color: #EFEAE3; */
 }
+
 .footer{
     color: white;
     position: fixed;
@@ -388,6 +456,24 @@ nav{
     height: 100vh;
     width: 100%;
     background-color: black;
-
     bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1vw 3vw;
+}
+.footer h1{
+    font-size: 24vw;
+
+}
+.footer-div{
+    height: 20vh;
+    width: 100%;
+    background-color: RED;
+}
+.footer-bottom{
+    height: 20vh;
+    width: 100%;
+    /* background-color: rgb(145, 100, 223); */
+    border-top: 2px solid white;
 }
