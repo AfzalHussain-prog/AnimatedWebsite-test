@@ -403,7 +403,7 @@ nav h3{
     transition: transform 0.3s ease-in-out;
   }
   .swiper:hover{
-    cursor: url('./arrows-left-right-solid.svg'), auto;
+    cursor: url('./assests/arrows-left-right-solid.svg'), auto;
     transform: scale(1.1);
 }
 

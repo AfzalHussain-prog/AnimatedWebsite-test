@@ -39,7 +39,7 @@ swiperAnimation();
 page4Animation();
 
 document.querySelector('.swiper').addEventListener('mouseenter', function() {
-    this.style.cursor = 'url("./arrows-left-right-solid.svg"), auto';
+    this.style.cursor = 'url("./assests/arrows-left-right-solid.svg"), auto';
 });
 
 document.querySelector('.swiper').addEventListener('mouseleave', function() {
