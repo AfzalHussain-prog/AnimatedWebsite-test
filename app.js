@@ -74,3 +74,5 @@ setTimeout(()=>{
 }
 loaderAnimation();
 menuAnimation();
+
+console.log('test login feature added');
