@@ -74,3 +74,6 @@ setTimeout(()=>{
 }
 loaderAnimation();
 menuAnimation();
+
+console.log("Fixing the visiblity of password");
+
