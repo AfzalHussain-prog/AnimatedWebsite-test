@@ -74,3 +74,4 @@ setTimeout(()=>{
 }
 loaderAnimation();
 menuAnimation();
+console.log('creating user creation');
